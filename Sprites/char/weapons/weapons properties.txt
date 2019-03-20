@@ -1,0 +1,8 @@
+example: weapon57 = name:knife; dmg=1.5; fire-rate=5ms; ammo=2; type=mili; effect_when_taken: player speed - 1;effect_when_fire:no; diglvl=2; size: X=5,Y=12; stage = 5;
+
+
+
+weapon1 = name:Toy shovel; dmg=0.5; fire-rate=20ms; ammo=1; type=mili; effect_when_taken:no; effect_when_fire:no; diglvl=1; size: X=7,Y=13; stage = 1;
+weapon2 = name:Shovel; dmg=2; fire-rate=70ms; ammo=3; type=mili; effect_when_taken:no; effect_when_fire:no; diglvl=1; size: X=7,Y=17; stage = 1;
+weapon3 = name:Pickaxe; dmg=2.2; fire-rate=80ms; ammo=4; type=mili; effect_when_taken:no; effect_when_fire:no; diglvl=2; size: X=13,Y=17; stage = 6;
+weapon4 = name:Bomb launcher; dmg:from_ammo=1,from_blow=4; fire-rate=60ms;ammo=6; type=blow effect_when_taken:no; effect_when_fire:no; diglvl=3; size: X=19 Y=10; stage = 15; bullet_properties: size = X=7,Y=8; range = animation_stop;
