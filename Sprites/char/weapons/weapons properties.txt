@@ -2,7 +2,9 @@ example: weapon57 = name:knife; dmg=1.5; fire-rate=5ms; ammo=2; type=mili; effec
 
 
 
-weapon1 = name:Toy shovel; dmg=0.5; fire-rate=20ms; ammo=1; type=mili; effect_when_taken:no; effect_when_fire:no; diglvl=1; size: X=7,Y=13; stage = 1;
-weapon2 = name:Shovel; dmg=2; fire-rate=70ms; ammo=3; type=mili; effect_when_taken:no; effect_when_fire:no; diglvl=1; size: X=7,Y=17; stage = 1;
-weapon3 = name:Pickaxe; dmg=2.2; fire-rate=80ms; ammo=4; type=mili; effect_when_taken:no; effect_when_fire:no; diglvl=2; size: X=13,Y=17; stage = 6;
+weapon1 = name:Toy shovel; dmg=0.5; fire-rate=20ms; ammo=1; type=mili; effect_when_taken:no; effect_when_fire:no; diglvl=1; size: X=7,Y=13; stage = 1; hit_properties:
+weapon2 = name:Shovel; dmg=2; fire-rate=70ms; ammo=3; type=mili; effect_when_taken:no; effect_when_fire:no; diglvl=1; size: X=7,Y=17; stage = 1; hit_properties: size = X=25,Y=32;
+weapon3 = name:Pickaxe; dmg=2.2; fire-rate=80ms; ammo=4; type=mili; effect_when_taken:no; effect_when_fire:no; diglvl=2; size: X=13,Y=17; stage = 6; hit_properties:
 weapon4 = name:Bomb launcher; dmg:from_ammo=1,from_blow=4; fire-rate=60ms;ammo=6; type=blow effect_when_taken:no; effect_when_fire:no; diglvl=3; size: X=19 Y=10; stage = 15; bullet_properties: size = X=7,Y=8; range = animation_stop;
+weapon5 = name:Energy shovel; dmg=6; fire-rate=100ms; ammo=6; type=mili; effect_when_taken:no; effect_when_fire:no; diglvl=3; size: X=7,Y=17; stage = 13; hit_properties: size = X=26,Y=29;
+weapon6 = name:Cyber energy shovel; dmg=6; fire-rate=150ms; ammo=10; type=mili; effect_when_taken:no; effect_when_fire:make 5 energy hits arround player; diglvl=3; size: X=7,Y=17; stage = 25; hit_properties: size = X=26,Y=29;
